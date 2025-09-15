@@ -19,13 +19,13 @@ Sua equipe está evoluindo o sistema interno de uma empresa que gerencia uma fro
 
 #### **Frontend**
 1. Integração com a API para cadastrar, listar, editar e visualizar máquinas e manutenções.
-2. Interface em **React**.
+2. Interface utilizando HTML, CSS (pode se utilizar Tailwind ou Bootstrap), JS no **AdonisJS**.
 3. Listas e formulários claros.
 4. **Fluxo**: “Dashboard” de máquinas, detalhes de máquina com lista de manutenções.
 
 #### **Banco de Dados (SQL)**
 1. Mapeamento relacional (máquinas x manutenções).
-2. Queries otimizadas para filtros e busca.
+2. Crie uma pasta com algumas queries úteis para a geração de relatórios.
 
 #### **Automação e IA**
 1. Implementar um endpoint que, baseado no **horímetro**, sugere quando uma máquina terá uma manutenção preventiva.
@@ -42,7 +42,7 @@ Sua equipe está evoluindo o sistema interno de uma empresa que gerencia uma fro
 - Estrutura de código e clareza da organização do projeto.
 - Uso adequado de banco relacional.
 - Projeto de API RESTful bem definida.
-- Otimização e limpeza nas queries SQL.
+- Boas queries SQL para a emissão de relatórios ao setor de dados.
 - Boas práticas de versionamento e documentação.
 - Experiência mínima de frontend e integração.
 - Planejamento apresentado no README.
@@ -62,6 +62,7 @@ Sua equipe está evoluindo o sistema interno de uma empresa que gerencia uma fro
 - Pode rodar localmente apenas (não precisa deploy ou testes automatizados).
 - Responsividade pode ser simples, priorize o fluxo de uso.
 - Use SQLite, Postgres, MySQL, etc. (preferencialmente Open Source).
+- Para o Backend, pode-se utilizar algum Headless CMS como o Strapi para facilitar a criação e gestão.
 
 ---
 
